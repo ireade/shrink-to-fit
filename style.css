@@ -3,7 +3,7 @@
  *    Paul Irish's Box Sizing Reset (http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
  *    CSS Mojo's clearfix (http://cssmojo.com/latest_new_clearfix_so_far/)
  */
-/* 
+ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	font-size: 100%;
 	vertical-align: baseline;
-}*/
+}
 
 html {
   box-sizing: border-box;
@@ -35,18 +35,23 @@ html {
 
 
 
-.foo {
+.foo,
+.bar {
 	display: block;
-	width: 800px;
 	padding: 20px;
 	background-color: cornflowerblue;
 	margin-bottom: 20px;
+	border: 1px solid red;
+}
+
+
+.foo {
+	
+	width: 800px;
+	
 }
 
 .bar {
-	display: block;
+
 	width: 100%;
-	padding: 20px;
-	background-color: cornflowerblue;
-	margin-bottom: 20px;
 }
