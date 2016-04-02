@@ -35,8 +35,21 @@ html, body {
 
 h1 {
 	font-size: 20px;
-	padding: 20px;
+	padding: 40px 20px;
 }
+
+a {
+	padding: 40px 20px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+
+code {
+	font-family: monospace;
+}
+
+
 
 
 .px,
@@ -44,7 +57,7 @@ h1 {
 .vw {
 	display: block;
 	padding: 10px;
-	background-color: plum;
+	background-color: #ffdb3a;
 	margin-bottom: 20px;
 	border: 5px solid #000;
 }
